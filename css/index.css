@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+     
+ }
+
+ ul li{
+     list-style: none;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+
+
+/* ##################################################################################### */
+
+.text-light{
+    color: #f4f4f4;
+}
+
+.text-black{
+    color: #333333;
+}
+
+.text-grey{
+    color: #555555
+}
+ 
+.lg-heading{
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+ }
+.md-heading{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 1em;
+    
+}
+
+
+
+
+/* ############################################################################################# */
+
+
+
+
+
+.header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/back.jpg');
+    background-size: cover;
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;    
+    position: relative;
+}
+ 
+
+.navbar .nav-items{
+    
+    float: right;
+    font-size: 1.6rem;
+    margin-top: 2.5em;
+    letter-spacing: 2px;
+     
+}
+
+.navbar .nav-item{
+   
+    display: inline-block;
+    margin-right: 1em;
+    
+ }
+
+.navbar .logo{
+    
+    float: left;
+    font-size: 2.5rem;
+    margin-top: 1.6em;
+  
+}
+
+.navbar .logo a{
+
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 0.2rem 1rem;
+
+}
+
+.navbar .nav-item a{
+    text-decoration: none;
+    color: white;
+    padding:  0.2rem 1rem;
+     
+}
+
+
+
+.navbar .nav-item a:hover{
+    background: white;
+    color: black;
+    transition: 0.5s ease;
+    
+}
+.nav-items .active a{
+    background-color: white;
+    color: black;
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn-primary{
+
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0.5em 1.5em;
+    margin: 1em;
+    border-radius: 10em;
+    background:  #ebc2c2;
+    /* letter-spacing: 1px; */
+    /* text-transform: uppercase; */
+     
+}
+
+.btn-secondary{
+    /* background: darkgray; */
+    display: inline-block;
+    border: #e63946 1px solid;
+    font-size: 1.5rem;
+    padding: 0.5em 1.5em;
+    margin: 1em;
+    border-radius: 2em;
+ }
+.btn-primary a{
+    color:#e63946;
+}
+
+.btn-secondary a{
+    color: #e63946;
+}
+.btn-primary:hover{
+    background-color: #f19a9a;
+}
+.btn-secondary:hover{
+    background-color:#f4f4f4;
+}
+ 
+
+
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center ;
+}
+.header-content p{
+    font-size: 1.4rem;
+}
+
+/* ################################################################################################# */
+
+
+.showcase{
+    background: #dddddd;
+    padding: 10rem 0;
+}
+.raw{
+    height: 35rem;
+    background: white;
+    box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.4);
+
+}
+
+.raw1{
+    margin-bottom: 10rem;
+}
+
+
+.raw1 .textbox, .raw2 .imgbox{
+    float: right;
+    width: 50%;
+}
+
+.raw2 .textbox, .raw1 .imgbox{
+    float: left;
+    width: 50%;
+}
+
+.imgbox{
+     height: 100%;
+}
+
+.textbox{
+    padding: 3rem;
+}
+
+
+.raw .imgbox img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.raw{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+footer{
+    margin: 0.8rem 2.5rem;
+    padding: 0.5em;
+}
+footer p{
+     font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+
+
+
+/* ####################### Login page ######################################## */
+

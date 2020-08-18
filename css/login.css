@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+     
+ }
+
+ ul li{
+     list-style: none;
+ }
+
+
+ /* ################################################################################# */
+
+
+ .header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/back.jpg');
+    background-size: cover;
+    height: 15vh;
+     background-position: center;
+    background-repeat: no-repeat;    
+    position: relative;
+}
+ 
+
+.navbar .nav-items{
+    
+    float: right;
+    font-size: 1.6rem;
+    margin-top: 2.5em;
+    letter-spacing: 2px;
+     
+}
+
+.navbar .nav-item{
+   
+    display: inline-block;
+    margin-right: 1em;
+    
+ }
+
+.navbar .logo{
+    
+    float: left;
+    font-size: 2.5rem;
+    margin-top: 1.6em;
+  
+}
+
+.navbar .logo a{
+
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 0.2rem 1rem;
+
+}
+
+.navbar .nav-item a{
+    text-decoration: none;
+    color: white;
+    padding:  0.2rem 1rem;
+     
+}
+
+.navbar .nav-item a:hover{
+    background: white;
+    color: black;
+    transition: 0.5s ease;
+    
+}
+.nav-items .active a{
+    background-color: white;
+    color: black;
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ########################################################## */
+  .wrapper h1{
+      margin-bottom: 2.5rem;
+      letter-spacing: 4px;
+  }
+    
+
+.wrapper{
+    
+    margin-top: 4rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 15rem 10rem;
+    box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.4);
+    background: blanchedalmond;
+
+ }
+  
+
+ .wrapper input[type=email], .wrapper input[type=password] , .wrapper input[type=submit], .reg input[type=email], .reg input[type=password] , .reg input[type=text], .reg input[type=email]{
+     padding: 0.4rem;
+     width: 24rem;
+     margin-bottom: 2rem;
+
+ }
+ .wrapper input[type=submit], .reg input[type=submit]{
+     background: rgb(70, 126, 199);
+     color: white;
+     border: none;
+     padding: 0.7rem;
+     font-weight: 700;
+ }
+ .wrapper input[type=submit]:hover, .reg input[type=submit]:hover{
+     background: rgb(58, 110, 179);
+     cursor: pointer;
+ }
+
+ .botom, .reg p{
+     font-size: 1.3rem;
+   
+ }
+ .botom input[type=checkbox]{
+     float: left;
+ }
+ .botom a{
+     float: right;
+     text-decoration: none;
+     color: rgb(58, 110, 179);
+     
+
+
+ }
+ .botom::after{
+     content: '';
+     display: block;
+     clear: both;
+ }
+
+ .sign{
+     margin-top: 2rem;
+     font-size: 1.3rem;
+}
+
+ 
+.sign a, .reg a{
+    text-decoration: none;
+    color: rgb(58, 110, 179);
+    font-weight: 700;
+}
+
+#signin p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.reg h1{
+     font-weight: 700;
+    padding-bottom: 2.3rem;
+}
+
+.reg{
+    margin-top: 5rem;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 11rem 4rem;
+    box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.4);
+    background: blanchedalmond;
+}
+ 
+
+ 
+
+/* ######################################################################### */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0.8rem 2.5rem;
+    padding : 0.5em; 
+}
+
+footer p{
+    font-size: 1.3rem;
+   font-weight: 500;
+}
