@@ -3,45 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/login.css">
-    <title>Sign In &raquo; Cooper</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/533523b161.js" crossorigin="anonymous"></script>
+    <title>Login &raquo; Cooper</title>
 </head>
 <body>
-                 <nav class="navbar">
-                    <div class="container">
-                        <h1 class="logo"><a href="./index.html">COOPER</a> </h1>
-                        <ul class="nav-items">
-                             <li class="nav-item"><a href="./index.html">HOME</a></li>
-                             <li class="nav-item"><a href="./about.html">ABOUT</a></li>
-                             <li class="nav-item"><a href="./contact.html">CONTACT</a></li>
-                             <li class="nav-item"><a href="#">LOGIN</a></li>
-                        </ul>
-                    </div>
-                            
-                </nav>       
-                   
- 
-            <div class="reg">
-                <h1>Join Cooper</h1>
-                 <form id="signin" action="" method="POST">
+    <nav class='navbar bg-dark'>
+        <div class="container">
+            <a href="./index.html"><h1 class='logo lg-heading text-light'>COOPER</h1></a>
+             <ul class='nav-items'>
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item "><a href="./about.html">About</a></li>
+                <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                <li class="nav-item"><a href="./login.html">Login</a></li>
 
-                    <input type="text" name="fname" placeholder="First Name" required autocomplete="off"><br>
-                    <input type="text" name="lname" placeholder="Last Name" required autocomplete="off"><br>
-                    <input type="email" name="email" placeholder="Email" required autocomplete="off"><br>
-                    <input type="password" name="" placeholder="Password" required autocomplete="off"><br>
+             </ul>
+        </div>
+     </nav>
 
-                    <p>By clicking Agree & Join,you agree to the Cooper User Agreement,Privacy Policy and Cookie Policy. </p>
+    <section class="wrapper">
+     <div class="reg container">
+        <h1 class="text-red">Join Cooper</h1>
+         <form id="signin" action="" method="POST">
 
-                    <input type="submit" value="Agree & Join"><br><br>
-                </form>
+            <input type="text" name="fname" placeholder="First Name" required autocomplete="off"><br>
+            <input type="text" name="lname" placeholder="Last Name" required autocomplete="off"><br>
+            <input type="email" name="email" placeholder="Email" required autocomplete="off"><br>
+            <input type="password" name="" placeholder="Password" required autocomplete="off"><br>
 
-                <p>Already on Cooper? <a href="./login.html">Log In</a></p>
+            <p>By clicking Agree & Join,you agree to the Cooper User Agreement,Privacy Policy and Cookie Policy. </p>
 
-            </div>
+            <input type="submit" value="Agree & Join"><br><br>
+        </form>
 
-             
-        
-    
+        <p>Already on Cooper? <a href="./login.html">Log In</a></p>
+
+    </div>
+</section>
+
+
+<footer class='footer'>
+    <div class="social-media-links">
+        <i class="fab fa-facebook fa-4x"></i>
+        <i class="fab fa-twitter fa-4x"></i>
+        <i class="fab fa-instagram fa-4x"></i>
+    </div>
+    <p>&copy; Cooper 2020. All rights reserved</p>
+</footer>
+     
 </body>
-</html>
