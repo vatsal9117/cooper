@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+ 
 
 
 *{
@@ -8,13 +9,13 @@
 }
  html{
     font-size: 62.5%;
-    line-height: 1.7;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
- }
-
+    line-height: 1.7;
+}
+ 
 ul li{
     list-style: none;
 }
@@ -208,6 +209,7 @@ h1, h2, h3{
 .row .text-box{
     padding: 3rem;
     text-align: center;
+ 
 }
 
 .row .img-box img{
@@ -286,6 +288,7 @@ h1, h2, h3{
 
 
 /* ################## banner styling ##################### */
+
 .banner{
     background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
     color: #f4f4f4;
@@ -293,24 +296,27 @@ h1, h2, h3{
     box-shadow: 5px 5px 10px #00000057;
     margin-top: 3rem;
 }
-
-.banner-left{
+ 
+ .banner-left{
     width: 60%;
     float: left;
 }
 
+ 
 .banner-right{
     width: 40%;
     float: right;
     text-align: right;
 }
 
+ 
 .cline{
     font-weight: 700;
     font-size: 2rem;
     margin-top: 1.5rem;
 }
 
+ ===
 .btn-banner{
     text-align: center;
     display: inline-block;
@@ -323,6 +329,7 @@ h1, h2, h3{
     color: #f4f4f4;
 }
 
+ 
 .banner::after{
     content: '';
     display: block;
@@ -370,8 +377,8 @@ h1, h2, h3{
     max-width: 90%;
     min-height: 40rem;
     object-fit: cover;
- }
-
+}
+ 
 /* ################# form styling #################### */
 .form-wrapper .form{
     height: 760px;
@@ -428,18 +435,20 @@ h1, h2, h3{
 
 /* ##################  Login Page styling ################# */
 
+ 
   
-
  .wrapper{
      background:#f4f4f4;
      padding: 5rem 0;
  }
 
  .wrap{
+ 
     text-align: center;
     width: 50rem;
     height: auto;
     padding: 10rem;
+    /* box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.4); */
     background: #fff;
     border: 2px solid #e63946;
  }
@@ -458,15 +467,16 @@ h1, h2, h3{
 
 }
 .wrapper input[type=submit], .reg input[type=submit]{
-    background: #e63946;
-    color: white;
-    border: none;
-    padding: 0.7rem;
-    font-weight: 700;
-}
+   background: #e63946;
+   color: white;
+   border: none;
+   padding: 0.7rem;
+   font-weight: 700;
+ }
 .wrapper input[type=submit]:hover, .reg input[type=submit]:hover{
    cursor: pointer;
 }
+
 
 .botom, .reg p{
      font-size: 1.6rem;
@@ -506,25 +516,26 @@ h1, h2, h3{
 }
 
 #signin p{
-   font-size: 1.2rem;
-   margin-bottom: 2rem;
-}
+ 
+ font-size: 1.2rem;
+  margin-bottom: 2rem;
+ }
 
 .reg h1{
    font-weight: 700;
    font-size: 2rem;
    padding-bottom: 2.3rem;
    text-transform: uppercase;
-}
+ }
 
 .reg{
-    text-align: center;
-    width: 50rem;
-    height: auto;
-    padding: 10rem;
-     background: #fff;
-    border: 2px solid #e63946;
-} 
+  text-align: center;
+  padding: 10rem;
+  width: 50rem;
+  height: auto;
+  background: #fff;
+  border: 2px solid #e63946;
+ } 
 
 
 
@@ -580,6 +591,7 @@ h1, h2, h3{
     .box-wrapper{
         box-shadow: none;
     }
+  
     .banner-left,
     .banner-right{
         float: none;
@@ -614,21 +626,21 @@ h1, h2, h3{
         padding: 8em 5em;
         width: 40rem;
         height: auto;
-        background: #fff;
+         background: #fff;
         border: 2px solid #e63946;
       } 
-      .botom{
+   .botom{
         text-align: center;
-
       }
-
+ 
     .botom a, .botom input[type=checkbox]{
         float: none;
         width: 100%;
         height: auto;
         display: block;
-    }   
-}
+     }       
+    
+ }
 
 @media(min-width: 501px) and (max-width: 768px){
     html{
@@ -679,7 +691,7 @@ h1, h2, h3{
     .box-wrapper{
         box-shadow: none;
     }
-    .banner-left,
+     .banner-left,
     .banner-right{
         float: none;
         width: 100%;
@@ -695,7 +707,7 @@ h1, h2, h3{
         float: none;
         width: 100%;
         height: auto;
-    }  
+     }  
 }
 
 @media(min-width: 769px) and (max-width: 1200px){
@@ -711,10 +723,10 @@ h1, h2, h3{
 
 @media(orientation: landscape) and (max-height: 500px){
     .header{
-        height: 90vmax;
-        
+        height: 90vmax;        
     }
     .header-content h1{
         display: none;
     }
 }
+ 
