@@ -316,7 +316,6 @@ h1, h2, h3{
     margin-top: 1.5rem;
 }
 
- ===
 .btn-banner{
     text-align: center;
     display: inline-block;
@@ -483,24 +482,19 @@ h1, h2, h3{
      letter-spacing: normal;
      padding: 0.7rem;
 
-   
+ }
+ .botom .check{
+    text-align: left;
  }
  .botom input[type=checkbox]{
-     float: left;
-  }
- .botom a{
-     float: right;
-     text-decoration: none;
-     color: rgb(58, 110, 179);
-     
-
-
+     margin-right: 0.5rem;
  }
- .botom::after{
-     content: '';
-     display: block;
-     clear: both;
- }
+.botom .check a{
+    float: right;
+    text-decoration: none;
+    color: rgb(58, 110, 179);
+}
+  
 
 
 .sign{
@@ -628,19 +622,15 @@ h1, h2, h3{
         height: auto;
          background: #fff;
         border: 2px solid #e63946;
-      } 
-   .botom{
-        text-align: center;
-      }
- 
-    .botom a, .botom input[type=checkbox]{
-        float: none;
-        width: 100%;
-        height: auto;
-        display: block;
-     }       
-    
- }
+       }
+      .sign{
+        margin-top: 3rem;
+        font-size: 1.3rem;
+    }
+      
+          
+
+}
 
 @media(min-width: 501px) and (max-width: 768px){
     html{
