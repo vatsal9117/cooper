@@ -622,30 +622,15 @@ h1, h2, h3{
         height: auto;
          background: #fff;
         border: 2px solid #e63946;
-<<<<<<< HEAD
-      }
+       }
       .sign{
         margin-top: 3rem;
         font-size: 1.3rem;
     }
       
           
+
 }
-=======
-      } 
-   .botom{
-        text-align: center;
-      }
- 
-    .botom a, .botom input[type=checkbox]{
-        float: none;
-        width: 100%;
-        height: auto;
-        display: block;
-     }       
-    
- }
->>>>>>> 5396cb535bd921778b4e4752d3f26138136d931e
 
 @media(min-width: 501px) and (max-width: 768px){
     html{
