@@ -539,7 +539,7 @@ h1, h2, h3{
 
 @media (max-width: 500px){
     html{
-         font-size: 45%;
+         font-size: 50%;
     }
 
     .navbar .nav-items, .navbar .logo{
@@ -547,15 +547,6 @@ h1, h2, h3{
         display: block;
         width: 100%;
         text-align: center;
-    }
-    .navbar .nav-items a{
-        text-decoration: none;
-        color: white;
-        padding:  0.7rem;
-    }
-    .nav-items .active a{
-        background-color: white;
-        color: black;
     }
     .header-content .main-heading{
         display: none;
