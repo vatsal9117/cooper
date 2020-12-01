@@ -12,10 +12,10 @@
         die('Connection Failed : '.$conn->connect_error );
     }else
     {
-        $stmt = $conn->prepare("insert into registration(fname,lname,email,password,PhoneNumber)values(?,?,?,?,?)");
-        $stmt->bind_param("ssssi",$fname, $lname, $email, $password,$PhoneNumber);
+        $stmt = $conn->prepare("insert into registration(fname,lname,email,password,PhoneNumber)values(?, ?, ?, ?, ?)");
+        $stmt->bind_param("ssssi",$fname, $lname, $email, $password, $PhoneNumber);
         $stmt->execute();
-        echo"Registration Complete.";
+        echo "Registration Complete....";
         $stmt->close();
         $conn->close();
     }
